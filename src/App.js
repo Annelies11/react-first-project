@@ -6,12 +6,14 @@ import Hello from './components/Hello';
 import Message from './components/Message';
 import FunctionClick from './components/FunctionClick';
 import ClassClick from './components/ClassClick';
+import EventBind from './components/EventBind';
 
 function App() {
   return (
     <div className="App">
-      <Message />
-      <Greet name="Pedro" heroName="A Bug" />
+      {/* <Message />
+      <Greet name="Pedro" heroName="A Bug" /> */}
+      <EventBind />
       {/* <Greet name="Mavis" heroName="Dracula">
         <p>Aku terjatuh lagi dipelukanmu</p>
       </Greet>
@@ -23,9 +25,9 @@ function App() {
       <Welcome name="Mavis" heroName="Dracula"/>
       <Welcome name="Gin" heroName="Sophons"/>
       <Welcome name="Ring" heroName="Cassete"/> */}
-      <Welcome name="Mavis" heroName="Dracula"/>
+      {/* <Welcome name="Mavis" heroName="Dracula"/>
       <FunctionClick />
-      <ClassClick />
+      <ClassClick /> */}
     </div>
   );
 }
